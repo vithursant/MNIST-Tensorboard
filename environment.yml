@@ -1,0 +1,16 @@
+name: mnist-conv2d
+channels: 
+  - conda-forge
+  - defaults
+dependencies:
+  - python=2.7
+  - numpy
+  - jupyter
+  - pandas
+  - matplotlib
+  - seaborn
+  - pip:
+    - tqdm
+    - packaging
+    - appdirs
+    - tensorflow-gpu
